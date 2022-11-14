@@ -5,7 +5,6 @@ window.onload = function(){
     document.querySelector('#buscar').addEventListener('click', ()=>{
         d.innerHTML = ``;
         let busca = document.querySelector('#txtBusca');
-        alert('peidei');
         fetch(url)
         .then(resposta => {
             return resposta.json();
